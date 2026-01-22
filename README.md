@@ -7,73 +7,50 @@ The player controls a paddle to bounce the ball and break all the bricks.
 If the ball falls below the paddle, the game is over.
 If all bricks are destroyed, you win.
 
- Requirements
+Requirements
 
-Python 3.x
-
-Pygame
+  -Python 3.x
+  -Pygame
 
 Install pygame using:
 
-pip install pygame
+  -pip install pygame
 
-
+if you need or any os blocked your lib packs tha
 (Activate your virtual environment before installing.)
 
+   python3 -m venv venv
+   source venv/bin/activate
+  
+
 ▶ How to Run
-python breakout.py
+   -python breakout.py
 
 Controls
 
-⬅ Left Arrow – Move paddle left
+   Left Arrow – Move paddle left
+   Right Arrow – Move paddle right
 
-➡ Right Arrow – Move paddle right
+Game Features
 
- Game Features
+ Brick wall with 10 columns and 6 rows
 
-Brick wall with 10 columns and 6 rows
+ Paddle movement
 
-Paddle movement
+ Ball collision with:
 
-Ball collision with:
+   mWalls
+   Paddle
+   Bricks
 
-Walls
+ Sound effects:
 
-Paddle
+ bounce.wav for paddle hit
 
-Bricks
+ hit.wav for brick hit
 
-Sound effects:
+ Win and Game Over screens
 
-bounce.wav for paddle hit
-
-hit.wav for brick hit
-
-Win and Game Over screens
-
-Project Structure
-Breakout_Python_game/
-│
-├── breakout.py
-├── bounce.wav
-├── hit.wav
-├── README.md
-├── .gitignore
-└── venv/
-
-Concepts Used
-
-Object Oriented Programming (Classes: Brick, Paddle, Ball)
-
-Collision Detection
-
-Game Loop
-
-Keyboard Input
-
-Sound Handling
-
-Frame Control (FPS)
 
 Author
 
